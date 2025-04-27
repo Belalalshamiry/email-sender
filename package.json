@@ -1,0 +1,17 @@
+{
+  "name": "gmail-sender",
+  "version": "1.0.0",
+  "description": "Send email via Gmail API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "gmail-sender": "file:",
+    "googleapis": "^132.0.0",
+    "nodemailer": "^6.9.1"
+  }
+}
